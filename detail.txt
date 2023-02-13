@@ -1,0 +1,10 @@
+table country est en relation one-to-one avec la table capital on va passer la clé de country dans
+ la table capitale (en utilisant hasOne et belonngsTo) donc on a envoyé la clé dans l'autre selon un 
+ choix qu'on fait.
+
+ table userl est en relationn one-to-many avec la table post et lui cède sa clé directement 
+ (en utilisant la relation hasMany et belongsTo )
+
+
+ table customer en relation many-to-many avec la table Product , de deux tables va naître une troisième table
+ (en utilisant la relation belongsToMany et belongsToMany)
